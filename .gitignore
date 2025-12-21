@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Hydra
+outputs/
+multirun/
+
+# Torch
+*.pt
+*.pth
+
+# OS
+.DS_Store
+Thumbs.db
