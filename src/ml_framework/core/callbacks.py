@@ -73,6 +73,7 @@ class Callback:
             self,
             trainer: BaseTrainer,
             epoch: int,
+            logs: Optional[Dict[str, float]] = None,
     ) -> None:
         """
         Called at the beginning of each epoch.

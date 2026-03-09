@@ -11,7 +11,7 @@ else:
     CfgType: TypeAlias = Mapping[str, Any]
 
 from .base_model import BaseModel
-from src.core.callbacks import Callback
+from .callbacks import Callback
 
 
 class BaseTrainer(ABC):

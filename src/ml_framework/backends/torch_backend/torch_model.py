@@ -5,7 +5,7 @@ from typing import Any, Dict, Mapping, Optional
 import torch
 from torch import nn
 
-from src.core.base_model import BaseModel
+from ml_framework.core.base_model import BaseModel
 
 
 class TorchModel(nn.Module, BaseModel):
